@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="@drawable/bgexa"
+    tools:context=".ComputerMn">
+
+    <TextView
+        android:id="@+id/formKomputer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Service Komputer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="62dp"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No HP yang bisa dihubungi:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="62dp"/>
+
+    <EditText
+        android:id="@+id/editTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textJenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis computer:"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="396dp"
+        android:layout_marginLeft="62dp"/>
+
+    <TextView
+        android:id="@+id/selection_jenis"
+        android:layout_width="211dp"
+        android:layout_height="0dp"
+        android:text="Jenis:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:layout_marginLeft="62dp"/>
+
+    <Spinner
+        android:id="@+id/spin_jenis"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:drawSelectorOnTop="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textKeluhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluhan:"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="396dp"
+        android:layout_marginLeft="62dp" />
+
+    <EditText
+        android:id="@+id/editKeluhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="420dp"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:text="Share Lokasi"
+        android:id="@+id/Sharelok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"></CheckBox>
+
+    <Button
+        android:id="@+id/buttonOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order!"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:text="Mohon isikan data dengan lengkap dan benar
+        Terimakasih"
+        android:textAlignment="center"></TextView>
+
+</LinearLayout>

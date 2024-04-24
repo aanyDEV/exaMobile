@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "407482288579",
+    "firebase_url": "https://exacomputer.firebaseio.com",
+    "project_id": "exacomputer",
+    "storage_bucket": "exacomputer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407482288579:android:a1f75c3b4749393eef5576",
+        "android_client_info": {
+          "package_name": "com.a.exa.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407482288579-s6k7blsnqk4vrkclt6u369rovhqmb7ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcAn3OihHMGgv0v6ptyoPqJzCAUqjIRfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407482288579-s6k7blsnqk4vrkclt6u369rovhqmb7ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

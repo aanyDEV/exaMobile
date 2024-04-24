@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484919778983",
+    "firebase_url": "https://exacom-d9cd3.firebaseio.com",
+    "project_id": "exacom-d9cd3",
+    "storage_bucket": "exacom-d9cd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484919778983:android:3ca1dfac60c67f30df0582",
+        "android_client_info": {
+          "package_name": "com.a.exa_com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484919778983-nbi1bbp11e41u2uib0ubm0a7j1jkdek7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a.exa_com",
+            "certificate_hash": "70cd293161300553593f6ed6c0ecbd1b973a4a34"
+          }
+        },
+        {
+          "client_id": "484919778983-vots11lekh60kt0qnbshpk8g092b6j1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdGV_uFd4hp1k1JX1xBp4OVo4mMKN9CCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484919778983-vots11lekh60kt0qnbshpk8g092b6j1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
